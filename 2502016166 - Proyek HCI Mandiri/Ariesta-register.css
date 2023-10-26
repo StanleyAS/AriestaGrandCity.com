@@ -1,0 +1,302 @@
+body{
+    background-image: url("Background mall.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Navbar */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background: #D3D3D3;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#logo{
+    background-color: rgb(5, 0, 66);
+    background-image: linear-gradient(to top, aqua 0%, rgb(1, 1, 104));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.fa-gem{
+    margin-right: 0.5rem;
+}
+
+.navbar-menulist{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.itemlist{
+    height: 80px;
+}
+
+.link{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 1rem;
+    height: 100%;
+}
+
+.register-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: rgb(5, 0, 66);
+    color:white; 
+}
+
+.register:hover {
+    background: aqua;
+    color: black;
+    transition: all o.3s ease;
+}
+
+.link:hover{
+    color: aqua;
+    transition: all o.3s ease;
+}
+
+/* Content */
+
+.regist-container{
+    position: relative;
+    width: 700px;
+    height: 925px;
+    border: 1px solid;
+    border-color: black;
+    background-color: white;
+    margin: 100px auto;
+}
+
+.regist-container .title{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 48px;
+    font-family: 'Italiana', serif;
+}
+
+.regist-container .email {
+    font-size: 20px;
+    margin: 0px 100px 0px 80px;
+    font-family: 'Italiana', serif;
+}
+
+.regist-container .box{
+    width: 300px;
+    height: 45px;
+    margin-left: 140px;
+}
+
+.regist-container .name {
+    font-size: 20px;
+    margin: 0px 100px 0px 80px;
+    font-family: 'Italiana', serif;
+}
+
+.regist-container .box{
+    width: 300px;
+    height: 45px;
+    margin-left: 140px;
+}
+
+.regist-container .birthday{
+    font-size: 20px;
+    margin: 0px 100px 0px 80px;
+    font-family: 'Italiana', serif;
+}
+
+.regist-container .b-box{
+    width: 300px;
+    height: 45px;
+    margin-left: 118px;
+}
+
+.regist-container .regist-address{
+    font-size: 20px;
+    margin: 0px 100px 0px 80px;
+    font-family: 'Italiana', serif;
+}
+
+.regist-container .Address-Box{
+    width: 300px;
+    height: 100px;
+    margin-left: 125px;
+}
+
+.regist-container .phone {
+    font-size: 20px;
+    margin: 0px 100px 0px 80px;
+    font-family: 'Italiana', serif;
+}
+
+.regist-container .P-Box{
+    width: 300px;
+    height: 45px;
+    margin-left: 70px;
+}
+
+.regist-container .checkbox{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Italiana', serif;
+}
+
+.regist-container .button{
+    text-align: center;
+}
+
+.regist-container .button input{
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(5, 0, 66);
+    color: white;
+    font-family: 'Italiana', serif;
+}
+
+.regist-container .button input:hover {
+    background: aqua;
+    color: black;
+    transition: all o.3s ease;
+}
+
+/* Footer */
+
+.footer{
+    background-color:rgb(5, 0, 66);
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contain{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-self: center;
+    padding-left: 150px;
+}
+
+.footer-section{
+    display: flex;
+}
+
+#logo-footer{
+    margin: 20px 100px 20px 20px;
+    background-color: rgb(5, 0, 66);
+    background-image: linear-gradient(to top, aqua 0%, rgb(1, 1, 104));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer-item{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+.address h2{
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+.address{
+    color: rgba(255, 255, 255, 0.6);;
+    margin-bottom: 1rem;
+}
+
+.contact h2{
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+.contact{
+    color: rgba(255, 255, 255, 0.6);;
+    margin-bottom: 1rem;
+}
+
+.footer-link a{
+    margin: 0px 50px 0px 50px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.footer-link a:hover{
+    color: aqua;
+    transition: 0.3s ease-out;
+}
+
+.social-media h2{
+    color: rgba(255, 255, 255, 0.6);
+}
